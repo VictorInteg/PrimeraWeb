@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Empieza invisible */
+        transform: translateY(-20px); /* Se mueve hacia abajo */
+    }
+    to {
+        opacity: 1; /* Termina visible */
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    animation: fadeIn 2s ease-in-out; /* Aplica la animación */
+}
+@keyframes colorChange {
+    from {
+        background-color: #008CBA;
+    }
+    to {
+        background-color: #f44336;
+    }
+}
